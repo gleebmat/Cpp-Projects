@@ -3,7 +3,7 @@
 #include <quadmath.h>
 using namespace std;
 
-
+//The "-lquadmath" in tasks.jason's args is reqired!
 __float128 StringToFloat128(string& s)
 {
     return strtoflt128(s.c_str(), NULL);/*we convert our string to float128
